@@ -4,7 +4,7 @@ if 5>2:
 
 #wrong indentaion
 if 5>2:
- print("five is greater")
+print("five is greater")
       
 
     
@@ -50,9 +50,7 @@ def myfunc():
 myfunc()
 print("Python is " + x)
 
-x = 10
-del x
-print(x)  # Error
+
 
 
 
