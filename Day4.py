@@ -66,3 +66,24 @@ print(c)
 print(a+""+b)
 
 
+
+
+#5.In python we can directly add a string and a number 
+# i we use special type of keyword called f strings
+age=19
+x=f"I am Akhila,I am {age}"#if we dont use f,we get error
+print(x)
+
+# ii  format string(older)
+age = 36
+txt = "My name is John, I am {}".format(age)
+print(txt)
+
+
+
+#6.Escape  Charecters
+#txt = "My name is "John""(Illegal)
+txt = "My name is \"John\""
+print(txt)
+
+
