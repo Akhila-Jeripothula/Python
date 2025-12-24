@@ -81,7 +81,7 @@ print(txt)
 
 
 
-#6.Escape  Charecters
+#6.Escape  Charecters(use / charecters)
 #txt = "My name is "John""(Illegal)
 txt = "My name is \"John\""
 print(txt)
