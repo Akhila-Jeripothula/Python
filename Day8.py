@@ -81,10 +81,32 @@ del thislist[0]
 print(thislist)
 
 thislist = ["apple", "banana", "cherry"]
-del thislist
+del thislist #cause error
 
 thislist = ["apple", "banana", "cherry"]
 thislist.clear()
-print(thislist)
+print(thislist) #empties list
 
 
+
+#Loop List
+# You can loop through the list items by using a for loop:
+x=["roses","lilly","orchids"]
+for y in x:
+ print(y)
+
+# You can also loop through the list items by referring to their index number.(use range and len)
+x = ["apple", "banana", "cherry"]
+for i in range(len(x)):
+  print(x[i])
+
+# You can loop through the list items by using a while loop
+y = ["apple", "banana", "cherry"]
+i = 0
+while i < len(y):
+  print(y[i])
+  i = i + 1
+
+#List Comprehension(short)
+thislist = ["apple", "banana", "cherry"]
+[print(x) for x in thislist]
