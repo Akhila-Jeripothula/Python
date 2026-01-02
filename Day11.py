@@ -76,3 +76,6 @@ print(thisset)
 y = {"apple", "banana", "cherry"}
 for x in y:
   print(y)
+
+#Join sets
+
