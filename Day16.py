@@ -19,7 +19,7 @@ while(i<=9):
 # password=""
 
 # while password!= "python":
-#     password=input("Enter password")
+#     password=input("Enter your password")
 # print("Access granted")
 
 
