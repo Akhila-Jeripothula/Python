@@ -41,7 +41,33 @@ while(i<=10):
     print(i)
 
 
-# 5. while loop with else(only when loop ends normally)
+# 5. while loop with else(only when loop ends normally without break)
+i=3
+while(i<=7):
+    i+=1
+    print(i)
+else:
+    print("executed successfully")
+
+
+# 6.Nested while Loop(loop inside loop)
+i = 1
+while i <= 3:
+    j = 1
+    while j <= 2:
+        print(i, j)
+        j += 1
+    i += 1
+
+
+
+#7. while loop pattern
+i=1
+while(i<=7):
+    print("*"*i)
+    i+=1
+
+
 
 
 
