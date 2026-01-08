@@ -6,7 +6,7 @@
 # 1                              
 i=3                                  
 while(i<=9):                        
-    print(i)
+    print("Akhila")
     i+=1
 
     # i=3
