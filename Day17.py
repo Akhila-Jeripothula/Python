@@ -1,12 +1,11 @@
 # practising while loop with patterns
-# 1.
 
+# 1.
 i=7
 while i>=1:
     print("*"*i)
     i-=1
-
-
+#output:
 # *******
 # ******
 # *****
@@ -23,7 +22,7 @@ i=1
 while(i<=7):
     print(str(i)*i)
     i+=1
-
+#output:
 # 1
 # 22
 # 333
