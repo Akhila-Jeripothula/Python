@@ -78,3 +78,11 @@ for n in nums:
 
 print(largest)
 #output:90
+
+
+# 7 table
+i = 1
+while i <= 10:
+    print(7 * i)
+    i += 1
+
