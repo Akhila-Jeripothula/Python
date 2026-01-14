@@ -1,4 +1,5 @@
 # practising while loop with patterns
+#while loops
 
 # 1.
 i=7
