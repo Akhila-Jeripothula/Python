@@ -10,8 +10,8 @@ while(i<=9):
     i+=1
 
     # i=3
-    # while(i<=9):
-    #     print(i)  error because it is infinite loop
+    while(i<=9):
+        print(i)  error because it is infinite loop
 
 
 
@@ -66,6 +66,8 @@ i=1
 while(i<=7):
     print("*"*i)
     i+=1
+
+#8.
 
 
 
