@@ -5,7 +5,9 @@ print(x)
 
 
 #1.ordered(have definite order and it will not change)
+
 #2.unchangeble(we cannot remove or add the items once a tuple is created)
+
 #3.Allow Duplicate values(can have the same item multiple times)
 
 
