@@ -25,3 +25,7 @@ for i in consistency:
 consistency={"name":"Akhila","age":20} #dict(o,c)
 for key,value in consistency.items():
     print(key,value)
+for key in consistency:
+    print(key)
+for value in consistency.values():
+    print(value)
