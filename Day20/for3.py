@@ -22,3 +22,9 @@ for i in range(1,8):
     # 6
     # 7
 
+#3. for else
+for i in range(1,5):
+    print(i)
+else:
+    print("loop finished")
+
