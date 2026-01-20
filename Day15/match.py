@@ -20,3 +20,4 @@ match day:
     case 6|7:
         print("Weekend")
 
+#python is easy [rograming lang
