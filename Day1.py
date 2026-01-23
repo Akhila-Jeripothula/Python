@@ -6,3 +6,5 @@ print("Goal: Python developer")
 
 import sys
 print(sys.version)
+
+#Basics of python
