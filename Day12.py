@@ -9,7 +9,7 @@ thisdict = {
   "year": 1964
 }
 
-print(thisdict["brand"])  #accsessing key values
+print(thisdict["brand"])  #accsessing key values for python
 
 
 

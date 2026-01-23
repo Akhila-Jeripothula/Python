@@ -87,3 +87,4 @@ while i <= 10:
     print(7 * i)
     i += 1
 
+#while loop is conditional statement in python and while loop is the method of control flow statements
