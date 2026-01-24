@@ -8,3 +8,5 @@ import sys
 print(sys.version)
 
 #Basics of python
+
+#day 1 of python learning
