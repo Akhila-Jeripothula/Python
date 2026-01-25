@@ -10,3 +10,5 @@ print(sys.version)
 #Basics of python
 
 #day 1 of python learning
+
+#day2 of python learning
