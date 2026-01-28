@@ -61,3 +61,9 @@ def akhii():
    return 5
    return 10
 print(akhii())
+
+#Python arguments:
+def greet(name):      # name → parameter
+    print("Hello", name)
+
+greet("Akhila")       # "Akhila" → argument
