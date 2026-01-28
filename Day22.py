@@ -67,3 +67,7 @@ def greet(name):      # name → parameter
     print("Hello", name)
 
 greet("Akhila")       # "Akhila" → argument
+
+
+
+#diff types of arguments
