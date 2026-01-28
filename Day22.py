@@ -32,8 +32,22 @@ myfunc()
 # 2.A function name can only contain letters, numbers, and underscores
 # 3.Function names are case-sensitive (myFunction and myfunction are different)
 
+
+#return statement
 def get_greeting():
   return "Hello from a function"
 
 message = get_greeting()
 print(message)
+
+
+
+
+def get_greeting():
+  return "Hello from a function"
+
+print(get_greeting())
+
+
+#pass
+generally function should not be empty so if you want it to be empty we should use pass statement:
