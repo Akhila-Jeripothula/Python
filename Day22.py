@@ -49,5 +49,15 @@ def get_greeting():
 print(get_greeting())
 
 
-#pass
-generally function should not be empty so if you want it to be empty we should use pass statement:
+# #pass
+# generally function should not be empty so if you want it to be empty we should use pass statement:
+
+def akhi():
+   pass
+
+
+#more than one return
+def akhii():
+   return 5
+   return 10
+print(akhii())
