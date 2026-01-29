@@ -17,3 +17,8 @@ while i<=6:
     i+=1
 
 #real life example of break statement
+num=[1,2,4,6,8,9,77]
+for i in num:
+    if i==6:
+        print("found")
+        break
