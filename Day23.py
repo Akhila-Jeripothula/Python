@@ -15,3 +15,5 @@ while i<=6:
         break 
     print(i)
     i+=1
+
+#real life example of break statement
