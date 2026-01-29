@@ -89,3 +89,20 @@ while i <= 5:
 # Skips iteration?                  	 No	                                                     Yes
 # Used in	                             for, while	                                             for, while
 # Common use	                         Exit loop	                                             Skip unwanted values
+
+
+#Nested
+
+#break
+for i in range(1, 4):
+    for j in range(1, 4):
+        if j == 2:
+            break
+        print(i, j)
+
+#continue
+for i in range(1, 4):
+    for j in range(1, 4):
+        if j == 2:
+            continue
+        print(i, j)
