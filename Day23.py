@@ -22,3 +22,27 @@ for i in num:
     if i==6:
         print("found")
         break
+
+
+#break and else:
+# Python has a special feature: loop + else
+
+# Rule:
+
+# else runs only if the loop ends normally
+
+# else does NOT run if break is executed
+
+for i in range(1,10):
+    if i==12:
+        break
+else:
+    print("hcg")
+
+#break cannot be used outside the loop(if it is used outside the loop it gives syntactic error)
+
+
+
+
+
+#continuee
