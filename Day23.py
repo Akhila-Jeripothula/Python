@@ -46,3 +46,20 @@ else:
 
 
 #continuee
+# continue skips the remaining code in the current iteration
+# and jumps to the next iteration of the loop.
+
+#loop does not stop 
+
+for i in range(1,6):
+    if i==3:
+        continue
+    print(i)
+
+
+#skipping even num
+for i in range(1,11):
+    if i%2==0:
+        continue
+    print(i)
+
