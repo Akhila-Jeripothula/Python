@@ -83,3 +83,9 @@ while i <= 5:
 
 
 
+# Feature	                             break	                                                continue
+
+# Stops loop?	                         Yes                                                  	 No
+# Skips iteration?                  	 No	                                                     Yes
+# Used in	                             for, while	                                             for, while
+# Common use	                         Exit loop	                                             Skip unwanted values
