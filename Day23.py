@@ -9,6 +9,7 @@ for i in range(1,6):
 
 
 
+
 i=1
 while i<=6:
     if i==3:
@@ -106,3 +107,6 @@ for i in range(1, 4):
         if j == 2:
             continue
         print(i, j)
+
+
+    #continuation of break and continue statement
