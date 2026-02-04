@@ -4,7 +4,7 @@
 # 3.default
 
 
-#for loop:used to execute sequesnce of elements
+#for loop:used to execute sequence of elements
 for i in range(0,6):
     print(i)
 
