@@ -11,6 +11,7 @@ for i in range(0,6):
 for i in range(0,10,5):
     print(i) # step included
 
+#for loop
 for i in range(1,3,10):
     print(i)
         
