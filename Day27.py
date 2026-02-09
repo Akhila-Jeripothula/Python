@@ -1,6 +1,6 @@
 #FUNCTIONS
 
-#calling function
+#calling function:
 def greet():
     print("Hello, welcome to Python!")
 greet()   
@@ -54,3 +54,11 @@ def info(**data):
     print(data)
 info(name="Akhila", age=21, course="Python")
 #output:{'name': 'Akhila', 'age': 21, 'course': 'Python'}
+
+#function with return:
+def add(a, b):
+    return a + b
+
+x = add(10, 20)
+print(x)
+
