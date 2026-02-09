@@ -15,3 +15,5 @@ for i in range(0,10,5):
 for i in range(1,3,10):
     print(i)
         
+#while loop
+this is one of the sequence numbers
