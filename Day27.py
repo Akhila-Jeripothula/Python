@@ -6,7 +6,7 @@ def greet():
 greet()   
 
 
-#using parameter
+# parameter using:
 def greet(name):
     print("Hello",name)
 greet("Akhila")
