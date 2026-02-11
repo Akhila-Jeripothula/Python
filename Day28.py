@@ -19,3 +19,10 @@ def myfunc():
     x=30
     print(x)
 myfunc()
+# print(x)   error
+
+
+#2.Global scope:
+
+# A variable created outside all functions.
+# It can be accessed inside functions (but careful while modifying).
