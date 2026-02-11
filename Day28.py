@@ -26,3 +26,28 @@ myfunc()
 
 # A variable created outside all functions.
 # It can be accessed inside functions (but careful while modifying).
+
+x = 20   
+def test():
+    print(x)
+test()
+
+
+
+
+
+x = 10
+def test():
+    x = 5   # This creates a new local variable
+    print(x)
+test()
+print(x)
+
+
+#global keyword-to modify
+def myfunc():
+  global x
+  x = 300
+myfunc()
+print(x)
+
