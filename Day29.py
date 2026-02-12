@@ -20,6 +20,21 @@ def print_numbers(n):
     print_numbers(n - 1)
 
 print_numbers(5)
+#output: 
+# 5
+# 4
+# 3
+# 2
+# 1
+
+#3.fibonacci
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+print(fibonacci(6))
+#output:8
 
 
 
