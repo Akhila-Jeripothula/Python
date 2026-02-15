@@ -31,3 +31,4 @@ print(result)
 
 
 #functions:
+print("hello")
