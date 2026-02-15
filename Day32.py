@@ -24,7 +24,10 @@ def twoSum(nums, target):
             return [seen[needed], i]
         
         seen[nums[i]] = i
-nums=[2,7,11,15]
-target=9
-result=twoSum(nums,target)
+nums=[1,2,3]
+target=3
+result=twosum(nums,target)
 print(result)
+
+
+#functions:
