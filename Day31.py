@@ -25,5 +25,13 @@ def largest(a, b):
 print(largest(10, 25))
 
 
+#3.reverse of string
+def reverse_string(s):
+    return s[::-1]
+
+print(reverse_string("Python"))
+
+
+
 
 
