@@ -12,6 +12,8 @@ print(factorial(5))
 
 #output:120
 
+
+
 #2.
 def print_numbers(n):
     if n == 0:
@@ -26,6 +28,9 @@ print_numbers(5)
 # 3
 # 2
 # 1
+
+
+
 
 #3.fibonacci
 def fibonacci(n):
