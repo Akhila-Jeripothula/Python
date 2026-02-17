@@ -31,6 +31,9 @@ def reverse_string(s):
 
 print(reverse_string("Python"))
 
+#4.factorial:
+
+
 
 
 
