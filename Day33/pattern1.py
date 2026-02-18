@@ -6,3 +6,11 @@ def square_pattern(n):
         print()
 
 square_pattern(4)
+
+#output:
+
+# * * * * 
+# * * * * 
+# * * * * 
+# * * * * 
+
