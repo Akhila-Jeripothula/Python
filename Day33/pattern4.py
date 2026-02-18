@@ -7,9 +7,8 @@ def number_triangle(n):
 
 number_triangle(4)
 
-#output:
 
-
+#   Output:
 # 1 
 # 1 2
 # 1 2 3
