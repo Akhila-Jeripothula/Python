@@ -7,3 +7,9 @@ def right_triangle(n):
         print()
 
 right_triangle(4)
+
+#output:
+# * 
+# * *
+# * * *
+# * * * *
