@@ -6,3 +6,9 @@ def same_number_triangle(n):
         print()
 
 same_number_triangle(4)
+
+#output:
+# 1 
+# 2 2
+# 3 3 3
+# 4 4 4 4
