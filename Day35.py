@@ -34,3 +34,12 @@ def countdown(n):
     countdown(n-1)
 
 countdown(5)
+
+
+#difference between recursion and loop
+
+# | Recursion                 | Loop                         |
+# | ------------------------- | ---------------------------- |
+# | Calls itself              | Uses for/while               |
+# | Cleaner for tree problems | Better for simple repetition |
+# | Uses more memory          | Uses less memory             |
