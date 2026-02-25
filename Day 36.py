@@ -52,9 +52,13 @@ list2=list1.copy()
 print(list2)
 
 #tuple
-x = ("apple", "banana", "cherry")
-y = list(x)
-y[1] = "kiwi"
-x = tuple(y)
+# x = ("apple", "banana", "cherry")
+# y = list(x)
+# y[1] = "kiwi"
+# x = tuple(y)
 
-print(x)
+# print(x)
+tuple=("apple","banana","cherry")
+(green,red,blue)=tuple
+print(green)
+print(blue)
