@@ -17,3 +17,18 @@ print("good" not in strr)
 
 str="hello"
 print(str[::-1])
+
+a="akhila"
+print(a.split())
+
+b="Hello"
+print("hii" .join(b))
+
+#list
+list=["apple","banana"]
+list[1]="Mango"
+print(list)
+list.append("orange")
+print(list)
+list.insert(1,"kiwi")
+print(list)
