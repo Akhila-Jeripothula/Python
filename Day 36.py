@@ -92,3 +92,7 @@ print(x)
 
 y=thisdict.keys()
 print(y)
+z=thisdict.values()
+print(z)
+a=thisdict.items()
+print(a)
