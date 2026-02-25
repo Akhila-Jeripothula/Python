@@ -51,3 +51,10 @@ print(list2)
 list2=list1.copy()
 print(list2)
 
+#tuple
+x = ("apple", "banana", "cherry")
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+
+print(x)
