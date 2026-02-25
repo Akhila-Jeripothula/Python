@@ -81,3 +81,14 @@ print("banana" in thisset)
 
 
 #dictionary:
+thisdict={
+   "name":"Akhila",
+   "age":27
+}
+print(thisdict)
+print(thisdict["name"])
+x=thisdict.get("name")
+print(x)
+
+y=thisdict.keys()
+print(y)
