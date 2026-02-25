@@ -32,3 +32,6 @@ list.append("orange")
 print(list)
 list.insert(1,"kiwi")
 print(list)
+lost=["hi","Hello"]
+list.extend(lost)
+print(list)
