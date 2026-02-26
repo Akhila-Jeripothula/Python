@@ -90,9 +90,11 @@ print(thisdict["name"])
 x=thisdict.get("name")
 print(x)
 
+#key value pairs:
 y=thisdict.keys()
 print(y)
 z=thisdict.values()
 print(z)
 a=thisdict.items()
 print(a)
+
