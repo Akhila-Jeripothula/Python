@@ -1,4 +1,7 @@
+#revision
+
 #global and local variable
+
 x="Akhila"
 def mufunc():
     x="Akshaya"
