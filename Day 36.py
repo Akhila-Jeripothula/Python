@@ -1,5 +1,5 @@
 #revision
-
+#python
 #global and local variable
 
 x="Akhila"
