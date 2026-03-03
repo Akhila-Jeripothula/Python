@@ -5,4 +5,4 @@ def is_anagram(s1, s2):
 print(is_anagram("listen", "silent"))  
 
 #output:
-#true
+#True
