@@ -12,7 +12,3 @@ def second_largest(nums):
 
 print(second_largest([10, 20, 4, 45, 99]))
 
-#output:
-#46
-#45
-#21
