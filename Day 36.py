@@ -1,7 +1,7 @@
 #revision
 #python
 #global and local variable
-#local var=inside func
+
 
 x="Akhila"
 def mufunc():
