@@ -319,26 +319,26 @@
 
 
 #14. Difference between sum of prime factors and sum of non prime factors
-n=int(input("Enter number:"))
-i=1
-x=0
-y=0
-while i<=n:
-    if(n%i==0 ):
-        j=1
-        count=0
-        while j<=i:
-            if(i%j==0):
-                count+=1
-            j+=1
-        if(count==2):
-            x+=i
-        else:
-            y+=i
-    i+=1
-print(x)
-print(y)
-print(x-y)
+# n=int(input("Enter number:"))
+# i=1
+# x=0
+# y=0
+# while i<=n:
+#     if(n%i==0 ):
+#         j=1
+#         count=0
+#         while j<=i:
+#             if(i%j==0):
+#                 count+=1
+#             j+=1
+#         if(count==2):
+#             x+=i
+#         else:
+#             y+=i
+#     i+=1
+# print(x)
+# print(y)
+# print(x-y)
 
 
      
@@ -371,6 +371,160 @@ print(x-y)
 
 
         
+
+# #1.write a program to count the odd factors of a given number:
+# # n=18
+# # i=1
+# # count=0
+# # while i<=n:
+# #     if(n%i==0 and i%2!=0):
+# #         count+=1
+# #     i+=1
+# # print(count)
+
+
+# #2.write a program to find product of all factors of a number:
+# # n=6
+# # i=1
+# # product=1
+# # while i<=n:
+# #     if(n%i==0):
+# #         product*=i
+# #     i+=1
+# # print(product)
+
+
+
+# #3.check whether a number has exactly four factors:
+# # n=int(input("Enter the number:"))
+# # i=1
+# # count=0
+# # x=4
+# # while i<=n:
+# #     if(n%i==0):
+# #         count+=1
+# #     i+=1
+# # if(count==x):
+# #     print("yes")
+# # else:
+# #     print("no")
+
+
+# #4.find the smallest factor of number excling 1
+# # n=18
+# # i=2
+# # smallest=9
+# # while i<=n:
+# #     if(n%i==0 and smallest>i):
+# #         smallest=i
+# #     i+=1
+# # print(smallest)
+
+
+# 5.sum of perfect factors of a number:
+# n=30
+# i=1
+# x=0
+# while i<n:
+#     if(n%i==0):
+#         j=1
+#         total=0
+#         while j<i:
+#             if(i%j==0):
+#                 total+=j
+#             j+=1
+#         if(total==i):
+#             x+=i
+#     i+=1
+# print(x)
+
+ 
+# #6.check whether number is perfect ,prime ,strong
+# n=int(input("Enter Number:  "))
+# i=1
+# count=0
+# while i<=n:
+#     if(n%i==0):
+#         count+=1
+#     i+=1
+# if(count==2):
+#     prime=True
+# else:
+#     prime=False
+
+    
+# i=1    
+# total=0
+# while i<n:
+#     if(n%i==0):
+#         total+=i
+#     i+=1
+# if(total==n):
+#     perfect=True
+# else:
+#     perfect=False
+    
+# original=n
+# x=0
+# while n>0:
+#     digit=n%10
+#     n=n//10
+#     i=1
+#     fact=1
+#     while i<=digit:
+#         fact*=i
+#         i+=1
+#     x+=fact
+# if(x==original):
+#     strong=True
+# else:
+#     strong=False
+
+# if(prime and perfect and strong):
+#     print("all")
+# elif(prime):
+#     print("prime")
+# elif(perfect):
+#     print("perfect")
+# elif(strong):
+#     print("strong")
+# else:
+#     print("neither")
+    
+
+#7.Largest prime factor of a number:
+n=int(input("enter number:"))
+i=1
+largest=0
+
+
+
+while i<=n:
+    if(n%i==0):
+
+        j=1
+        count=0
+        while j<=i:
+            if(i%j==0):
+                count+=1
+            j+=1
+        if(count==2):
+            prime=True
+        else:
+            prime=False
+
+        
+        if(count==2):
+            if(largest<i):
+                largest=i
+    i+=1
+
+print(largest)
+
+
+
+
+
 
 
 
