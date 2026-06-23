@@ -272,12 +272,19 @@
 # count=0
 # while i<=n:
 #     if(n%i==0):
-
-#         if(count==2):
-#           prime=True
-#           count+=1
-#           i+=1
+#         j=1
+#         count1=0
+#         while j<=i:
+#             if(i%j==0):
+#                 count1+=1
+#             j+=1
+#         if(count1==2):
+#             count+=1
+#     i+=1
 # print(count)
+
+
+
 
 
 
@@ -312,18 +319,29 @@
 
 
 #14. Difference between sum of prime factors and sum of non prime factors
-# n=int(input("Enter number:"))
-# i=1
-# x=0
-# y=0
-# while i<=n:
-#     if(n%i==0 ):
-#         if(x==2):
-#             x+=i
-#         else:
-#             y+=i
-#     i+=1
-# print(x-y)
+n=int(input("Enter number:"))
+i=1
+x=0
+y=0
+while i<=n:
+    if(n%i==0 ):
+        j=1
+        count=0
+        while j<=i:
+            if(i%j==0):
+                count+=1
+            j+=1
+        if(count==2):
+            x+=i
+        else:
+            y+=i
+    i+=1
+print(x)
+print(y)
+print(x-y)
+
+
+     
 
  
 
