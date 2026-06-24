@@ -493,33 +493,146 @@
     
 
 #7.Largest prime factor of a number:
-n=int(input("enter number:"))
-i=1
-largest=0
+# n=int(input("enter number:"))
+# i=1
+# largest=0
 
 
 
-while i<=n:
-    if(n%i==0):
+# while i<=n:
+#     if(n%i==0):
 
-        j=1
-        count=0
-        while j<=i:
-            if(i%j==0):
-                count+=1
-            j+=1
-        if(count==2):
-            prime=True
-        else:
-            prime=False
+#         j=1
+#         count=0
+#         while j<=i:
+#             if(i%j==0):
+#                 count+=1
+#             j+=1
+#         if(count==2):
+#             prime=True
+#         else:
+#             prime=False
 
         
-        if(count==2):
-            if(largest<i):
-                largest=i
-    i+=1
+#         if(count==2):
+#             if(largest<i):
+#                 largest=i
+#     i+=1
 
-print(largest)
+# print(largest)
+
+
+
+#Nested loops(i,j)
+
+#1.count prime factors:
+# n=30
+# i=1
+# count=0
+# while i<=n:
+#     if(n%i==0):
+#         j=1
+#         count1=0
+#         while j<=i:
+#             if(i%j==0):
+#                 count1+=1
+#             j+=1
+#         if(count1==2):
+#             count+=1
+#     i+=1
+# print(count)
+
+
+#2.largest prime factor
+# n=30
+# i=1
+# largest=0
+# while i<=n:
+#     if(n%i==0):
+#         j=1
+#         count=0
+#         while j<=i:
+#             if(i%j==0):
+#                 count+=1
+#             j+=1
+
+#         if(count==2):
+#             if(largest<i):
+#                 largest=i
+#     i+=1
+# print(largest)
+
+
+
+#3.sum of perfect dactor:
+# n=30
+# i=1
+# total=0
+# while i<n:
+#     if(n%i==0):
+#         j=1
+#         x=0
+#         while j<i:
+#             if(i%j==0):
+#                 x+=j
+#             j+=1
+#         if(x==i):
+#             total+=i
+#     i+=1
+# print(total)
+
+
+#4. prime,perfect,strong:
+n=int(input("Enter the number:"))
+i=1
+count=0
+while i<=n:
+    if(n%i==0):
+        count+=1
+    i+=1
+if(count==2):
+    prime=True
+else:
+    prime=False
+
+i=1
+total=0
+while i<n:
+    if(n%i==0):
+        total+=i
+    i+=1
+if(total==n):
+    perfect=True
+else:
+    perfect=False
+
+
+original=n
+total1=0
+while n>0:
+    digit=n%10
+    n=n//10
+    i=1
+    fact=1
+    while i<=digit:
+        fact*=i
+        i+=1
+    total1+=fact
+if(total1==original):
+    strong=True
+else:
+    strong=False
+
+if(prime and perfect and strong):
+    print("all")
+elif(prime):
+    print("prime")
+elif(perfect):
+    print("perfect")
+elif(strong):
+    print("strong")
+else:
+    print("neither")
 
 
 
