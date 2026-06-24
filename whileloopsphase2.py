@@ -583,59 +583,168 @@
 
 
 #4. prime,perfect,strong:
-n=int(input("Enter the number:"))
+# n=int(input("Enter the number:"))
+# i=1
+# count=0
+# while i<=n:
+#     if(n%i==0):
+#         count+=1
+#     i+=1
+# if(count==2):
+#     prime=True
+# else:
+#     prime=False
+
+# i=1
+# total=0
+# while i<n:
+#     if(n%i==0):
+#         total+=i
+#     i+=1
+# if(total==n):
+#     perfect=True
+# else:
+#     perfect=False
+
+
+# original=n
+# total1=0
+# while n>0:
+#     digit=n%10
+#     n=n//10
+#     i=1
+#     fact=1
+#     while i<=digit:
+#         fact*=i
+#         i+=1
+#     total1+=fact
+# if(total1==original):
+#     strong=True
+# else:
+#     strong=False
+
+# if(prime and perfect and strong):
+#     print("all")
+# elif(prime):
+#     print("prime")
+# elif(perfect):
+#     print("perfect")
+# elif(strong):
+#     print("strong")
+# else:
+#     print("neither")
+
+
+#1.count composite number
+# n=12
+# i=1
+# count=0
+# while i<=n:
+#     if(n%i==0):
+        
+#         j=1
+#         x=0
+#         while j<=i:
+#             if(i%j==0):
+#                 x+=1
+#             j+=1
+#         if(x!=2 and x!=1):
+#             count+=1
+#     i+=1
+# print(count)
+
+#2.sum of prime
+# n=12
+# i=1
+# total=0
+# while i<=n:
+#     if(n%i==0):
+#         j=1
+#         x=0
+#         while j<=i:
+#             if(i%j==0):
+#                 x+=1
+#             j+=1
+#         if(x==2):
+#             total+=i
+#     i+=1
+# print(total)
+    
+
+#3.count strong digit
+# n=123421
+# count=0
+# while n>0:
+#     digit=n%10
+#     n=n//10
+#     i=1
+#     fact=1
+#     while i<=digit:
+#         fact*=i
+#         i+=1
+#     if(fact==digit):
+#         count+=1
+# print(count)
+
+#4.smallest prime factor
+# n=84
+# i=1
+# smallest=9
+# while i<=n:
+#     if(n%i==0):
+#         j=1
+#         count=0
+#         while j<=i:
+#             if(i%j==0):
+#                 count+=1
+#             j+=1
+#         if(count==2):
+#             prime=True
+#         else:
+#             prime=False
+#         if(count==2 and smallest>i):
+#             smallest=i
+#     i+=1
+# print(smallest)
+
+
+#5.Difference between sum of prime factors and sum of composite factors:
+# n=12
+# i=1
+# x=0
+# y=0
+# while i<=n:
+#     if(n%i==0):
+#         j=1
+#         count=0
+#         while j>=i:
+#             if(i%j==0):
+#                 count+=1
+#         if(count==2):
+#             x+=i
+#         elif(count>2):
+#             y+=i
+#     i+=1
+# print(x-y)
+
+
+
+#6.check whether all factors are prime or not
+n=16
 i=1
-count=0
+allprime=True
 while i<=n:
     if(n%i==0):
-        count+=1
+        j=1
+        count=0
+        while j<=i:
+            if(i%j==0):
+                count+=1
+            j+=1
+        if(count!=2):
+            allprime=False
     i+=1
-if(count==2):
-    prime=True
-else:
-    prime=False
-
-i=1
-total=0
-while i<n:
-    if(n%i==0):
-        total+=i
-    i+=1
-if(total==n):
-    perfect=True
-else:
-    perfect=False
-
-
-original=n
-total1=0
-while n>0:
-    digit=n%10
-    n=n//10
-    i=1
-    fact=1
-    while i<=digit:
-        fact*=i
-        i+=1
-    total1+=fact
-if(total1==original):
-    strong=True
-else:
-    strong=False
-
-if(prime and perfect and strong):
-    print("all")
-elif(prime):
-    print("prime")
-elif(perfect):
-    print("perfect")
-elif(strong):
-    print("strong")
-else:
-    print("neither")
-
-
-
+print(allprime)
 
 
 
