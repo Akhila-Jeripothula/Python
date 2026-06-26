@@ -407,3 +407,109 @@
 #     print("Fibonacci only")
 # else:
 #     print("Neither")
+
+
+
+#1.
+# n=89
+
+# original=n
+# temp=n
+# total=0
+# while temp>0:
+#     digit=temp%10
+#     temp=temp//10
+#     total+=digit**3
+# if(total==original):
+#     armstrong=True
+# else:
+#     armstrong=False
+
+# a=0
+# b=1
+# found=False
+# while a<=n:
+#     if(a==n):
+#         found=True
+#         break
+#     c=a+b
+#     a=b
+#     b=c
+# if(found):
+#     fibo=True
+# else:
+#     fibo=False
+
+# if(armstrong and fibo):
+#     print("both")
+# elif(armstrong):
+#     print("armstrong")
+# elif(fibo):
+#     print("fibo")
+# else:
+#     print("neither")
+
+
+
+#2.
+# a=0
+# b=1
+# while a<=100:
+    
+#     c=a+b
+#     a=b
+#     b=c
+# print(a)
+
+
+#3.
+# n=500
+# original=n
+# total=0
+# while n>0:
+#     digit=n%10
+#     n=n//10
+#     total+=digit**3
+# if(total==original):
+#     print("Armstrong")
+# else:
+#     print("not armstrong")
+
+
+#4.
+# a=0
+# b=1
+# count=0
+# while a<=100:
+#     c=a+b
+#     a=b
+#     b=c
+#     count+=1
+# print(count)
+
+
+
+#1.
+a=0
+b=1
+total=0
+while a<=50:
+    total+=a
+    c=a+b
+    a=b
+    b=c
+print(total)
+
+
+
+#2.largest fibonacci number less than 1000
+a=0
+b=1
+while a<=1000:
+    c=a+b
+    a=b
+    b=c
+    print(a)
+
+
+
