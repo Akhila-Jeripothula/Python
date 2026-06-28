@@ -490,26 +490,237 @@
 
 
 #1.
-a=0
-b=1
-total=0
-while a<=50:
-    total+=a
-    c=a+b
-    a=b
-    b=c
-print(total)
+# a=0
+# b=1
+# total=0
+# while a<=50:
+#     total+=a
+#     c=a+b
+#     a=b
+#     b=c
+# print(total)
 
 
 
-#2.largest fibonacci number less than 1000
-a=0
-b=1
-while a<=1000:
-    c=a+b
-    a=b
-    b=c
-    print(a)
+###################
+#1. count even fibonacci numbers less than 100
+# a=0
+# b=1
+# count=0
+# while a<=100:
+#     if(a%2==0):
+#         count+=1
+#     c=a+b
+#     a=b
+#     b=c
+    
+# print(count)
+
+
+#2.sum of odd fibonacci numbers less than 100
+# a=0
+# b=1
+# total=0
+# while a<=100:
+#     if(a%2!=0):
+#         total+=a
+#     c=a+b
+#     a=b
+#     b=c
+# print(total)
+
+
+#3.Print Fibonacci numbers divisible by 3 and less than 100
+# a=0
+# b=1
+
+# while a<=100:
+#     if(a%3==0):
+#         print(a)
+#     c=a+b
+#     a=b
+#     b=c
+
+
+
+#4. Find the second largest Fibonacci number less than 200
+# a = 0
+# b = 1
+
+# largest = 0
+# secondlargest = 0
+
+# while a < 200:
+#     secondlargest = largest
+#     largest = a
+
+#     c = a + b
+#     a = b
+#     b = c
+
+# print(secondlargest)
+
+
+
+#5.Count Armstrong numbers between 100 and 1000
+# n=100
+# count=0
+
+# while n<=1000:
+
+#     original=n
+#     temp=n
+#     total=0
+    
+#     while temp>0:
+#         digit=temp%10
+#         temp=temp//10
+#         total+=digit**3
+#     if(total==original):
+#         count+=1
+#     n+=1
+# print(count)
+
+
+# 6.print armstrong numbers between 100 to 1000
+
+# n=100
+# while n<=1000:
+#     original=n
+#     temp=n
+#     total=0
+#     while temp>0:
+#         digit=temp%10
+#         temp=temp//10
+#         total+=digit**3
+#     if(total==original):
+#         print(original)
+#     n+=1
+
+
+#7. sum of armstrong numbers between 100 to 500
+
+# n=100
+# total=0
+
+# while n<=500:
+#     original=n
+#     temp=n
+#     total=0
+#     while temp>0:
+#         digit=temp%10
+#         temp=temp//10
+#         total+=digit**3
+#     if(total==original):
+#         total+=original
+#     n+=1
+# print(total)
+
+
+
+#8.  Check whether 370 is Armstrong only, Fibonacci only, Both, or Neither
+# n = 370
+
+# # Armstrong Check
+# original = n
+# temp = n
+# total = 0
+
+# while temp > 0:
+#     digit = temp % 10
+#     temp = temp // 10
+#     total += digit ** 3
+
+# if total == original:
+#     armstrong = True
+# else:
+#     armstrong = False
+
+# # Fibonacci Check
+# a = 0
+# b = 1
+# found = False
+
+# while a <= n:
+#     if a == n:
+#         found = True
+#         break
+
+#     c = a + b
+#     a = b
+#     b = c
+
+# fibonacci = found
+
+# # Final Answer
+# if armstrong and fibonacci:
+#     print("Both")
+# elif armstrong:
+#     print("Armstrong only")
+# elif fibonacci:
+#     print("Fibonacci only")
+# else:
+#     print("Neither")
+    
+
+
+
+#9.Count Fibonacci numbers less than 500 that are Armstrong
+# a = 0
+# b = 1
+# count = 0
+
+# while a < 500:
+
+#     original = a
+#     temp = a
+#     total = 0
+
+#     while temp > 0:
+#         digit = temp % 10
+#         temp = temp // 10
+#         total += digit ** 3
+
+#     # Handle 0 separately
+#     if original == 0:
+#         count += 1
+#     elif total == original:
+#         count += 1
+
+#     c = a + b
+#     a = b
+#     b = c
+
+# print(count)
+
+
+
+
+
+#10.Find the first Armstrong number greater than 500
+# n = 501
+
+# while True:
+#     original = n
+#     temp = n
+#     total = 0
+
+#     while temp > 0:
+#         digit = temp % 10
+#         temp = temp // 10
+#         total += digit ** 3
+
+#     if total == original:
+#         print(original)
+#         break
+
+#     n += 1
+
+
+        
+
+
+
 
 
 
