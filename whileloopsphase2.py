@@ -730,21 +730,21 @@
 
 
 #6.check whether all factors are prime or not
-n=16
-i=1
-allprime=True
-while i<=n:
-    if(n%i==0):
-        j=1
-        count=0
-        while j<=i:
-            if(i%j==0):
-                count+=1
-            j+=1
-        if(count!=2):
-            allprime=False
-    i+=1
-print(allprime)
+# n=16
+# i=1
+# allprime=True
+# while i<=n:
+#     if(n%i==0):
+#         j=1
+#         count=0
+#         while j<=i:
+#             if(i%j==0):
+#                 count+=1
+#             j+=1
+#         if(count!=2):
+#             allprime=False
+#     i+=1
+# print(allprime)
 
 
 
