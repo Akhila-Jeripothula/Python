@@ -145,16 +145,16 @@ i=1
 
 #1.5 rows    2.j  3.j should increase
 #code:
-num=1
-i=1
-while i<=5:
-    j=1
-    while j<=i:
+# num=1
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=i:
         
-        j+=1
+#         j+=1
     
-    print()
-    i+=1
+#     print()
+#     i+=1
     
 
 
@@ -182,3 +182,130 @@ while i<=5:
 #         j+=1
 #     print()
 #     i-=1
+
+
+
+
+# i=1
+# count=0
+# while i<=1800:
+#     if(i%15==0 and i%8!=0):
+#         count+=1
+#     i+=1
+# print(count)
+
+
+
+
+
+
+
+
+# PHASE 1  -  INCREASING 
+
+
+#LEVEL1 - EASYYY
+
+#1. 
+
+# *
+# **
+# ***
+# ****
+# *****
+
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=i:
+#         print("*",end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+
+#2.
+# 1
+# 12
+# 123
+# 1234
+# 12345
+
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=i:
+#         print(j,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+
+#3.
+
+# 1
+# 22
+# 333
+# 4444
+# 55555
+
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=i:
+#         print(i,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+
+
+#4.
+
+# 12
+# 123
+# 1234
+# 12345
+# 123456
+
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=i+1:
+#         print(j,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+
+#5.
+
+# 2
+# 23
+# 234
+# 2345
+# 23456
+
+# i=2
+# while i<=6:
+#     j=2
+#     while j<=i:
+#         print(j,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+#  OR
+
+i=1
+while i<=5:
+    j=2
+    while j<=i+1:
+        print(j,end="")
+        j+=1
+    print()
+    i+=1
