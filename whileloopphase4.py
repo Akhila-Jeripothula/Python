@@ -471,3 +471,156 @@ i=1
 #     print()
 #     i+=1
 
+
+# Assessment:
+#1.
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=i:
+#         print(j,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+#2.
+# i=1
+# while i<=5:
+#     j=2
+#     while j<=i+1:
+#         print(j,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+#3.
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=i:
+#         print(5,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+#4.
+# i=1
+# while i<=5:
+#     j=3
+#     while j<=2+i:
+#         print(j,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+#5.
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=i:
+#         print(9,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+#6.
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=4:
+#         print(j*2,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+
+#7.
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=5:
+#         print(j*2-1,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+#8.
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=5:
+#         print(j+4,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+#9.
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=3:
+#         print(i+2,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+#10.
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=4:
+#         print(j+6,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+11.
+i=1
+while i<=5:
+    j=1
+    while j<=i:
+        print(2*j-1,end="")
+        j+=1
+    print()
+    i+=1
+
+#12.
+# i=1
+# while i<=5:
+#     j=i
+#     while j<=i*2:
+#         print(2*j,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+# 15.
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=i:
+#         print(j+10,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+
+#13.
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=i:
+#         print(chr(65),end="")
+#         j+=1
+#     print()
+#     i+=1
