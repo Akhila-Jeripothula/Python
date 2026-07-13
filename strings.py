@@ -45,12 +45,11 @@
 # s="PyTHon"
 # count=0
 # for ch in s:
-#     if ch.upper():
+#     if ch.isupper():
 #         count+=1
 # print(count)
 
 
 #7.reverse string:
 s="python"
-for ch in s:
-    print([::-1])
+print(s[::-1])
