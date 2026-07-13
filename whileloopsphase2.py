@@ -1,4 +1,4 @@
-#PHASE 2: FACTORS AND FACTORIAL
+#PHASE 2: FACTORS AND FACTORIAL - PHASE 2***
 
 #general while loop:
 # n=5
