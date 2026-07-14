@@ -162,9 +162,24 @@
 
 #OR 
 
-s="madam"
+# s="madam"
 
-if s==s[::-1]:
-    print("Palindrome")
-else:
-    print("not palindrome")
+# if s==s[::-1]:
+#     print("Palindrome")
+# else:
+#     print("not palindrome")
+
+
+
+
+#2. count words
+
+s="Hello World what are you doing"
+count=0
+words=0
+for ch in s:
+    if ch==" ":
+        count+=1
+        word=count+1
+print(word)
+
