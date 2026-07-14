@@ -104,3 +104,67 @@
 
 
 
+#PART 3 - STRING BUILDER
+
+#1.reverse without slicing:
+# s="python"
+# new=""
+# for ch in s:
+#     new=ch+new
+# print(new)
+
+
+#2.remove spaces:
+# s="Hello world"
+# new=""
+# for ch in s:
+#     if ch!=" ":
+#         new=new+ch
+# print(new)
+
+
+#3.replace every vowel with *
+# d="python"
+# new=""
+
+# for ch in d:
+#     if ch.lower() in "aeiou":
+#         new=new+"*"
+#     else:
+#         new=new+ch
+# print(new)
+
+#4. Toggle
+# s="AkHiLa"
+# new=""
+# for ch in s:
+#     if ch.isupper():
+#         new=new+ ch.lower()
+#     elif ch.islower():
+#         new=new+ch.upper()
+# print(new)
+
+
+
+
+#PART 4 - INTERVIEW PROBLEMS
+
+#1.Palindrome
+# s="python"
+# new=""
+# for ch in s:
+#     new=ch+new
+# if(s==new):
+#     print("Palindrome")
+# else:
+#     print("Not a palindrome")
+
+
+#OR 
+
+s="madam"
+
+if s==s[::-1]:
+    print("Palindrome")
+else:
+    print("not palindrome")
