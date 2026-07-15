@@ -174,12 +174,26 @@
 
 #2. count words
 
-s="Hello World what are you doing"
-count=0
-words=0
+# s="Hello World what are you doing"
+# count=0
+# words=0
+# for ch in s:
+#     if ch==" ":
+#         count+=1
+#         word=count+1
+# print(word)
+
+
+
+#3, find the longest word:
+s="I love programming"
+current=""
+longest=""
+spaces=""
 for ch in s:
     if ch==" ":
-        count+=1
-        word=count+1
-print(word)
-
+        spaces+=1
+current=spaces+1
+if len(current)>len(longest):
+    longest=current
+print(longest)
