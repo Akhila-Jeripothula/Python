@@ -1,4 +1,4 @@
-# Day 1
+# Day 1   of  python
 print(" Name :Akhila Jeripothula")
 print("Age : 19")
 print("City: Hyderabad")
